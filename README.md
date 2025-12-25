@@ -1,6 +1,6 @@
 # Facebook Graph API Explorer
 
-A web application that allows users to fetch and display data from the Facebook Graph API. This project demonstrates how to interact with Facebook's Graph API to retrieve user profile information, pages, and posts.
+A web application that allows users to fetch and display data from the Facebook Graph API. This project demonstrates how to interact with Facebook's Graph API to retrieve user profile information.
 
 ## 📝 Project Description
 
@@ -162,5 +162,6 @@ _List project members and their roles here_
 ---
 
 **API Source**: [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+
 
 
