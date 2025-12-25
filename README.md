@@ -2,23 +2,6 @@
 
 A web application that allows users to fetch and display data from the Facebook Graph API. This project demonstrates how to interact with Facebook's Graph API to retrieve user profile information, pages, and posts.
 
-## 📋 Table of Contents
-
-- [Project Description](#project-description)
-- [API Details](#api-details)
-- [Features](#features)
-- [File Structure](#file-structure)
-- [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-- [How to Run](#how-to-run)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Authentication](#authentication)
-- [Sample JSON Response](#sample-json-response)
-- [Error Handling](#error-handling)
-- [Screenshots](#screenshots)
-- [Project Members](#project-members)
-
 ## 📝 Project Description
 
 This application provides a simple interface to interact with the Facebook Graph API. Users can input their access token and fetch their profile information, which is then displayed in a clean, responsive card layout.
@@ -36,13 +19,7 @@ https://graph.facebook.com/v24.0
    - Retrieves basic user profile information
    - Fields: id, name, email (if available)
 
-2. **Get User Posts** - `/{user-id}/posts`
-   - Retrieves posts from a user's timeline
-   - Includes: id, message, created_time, likes, comments
 
-3. **Get Page Information** - `/{page-id}`
-   - Retrieves page details
-   - Fields: id, name, about, fan_count
 
 ### Required Parameters
 
@@ -160,10 +137,7 @@ Simply open `index.html` in your web browser. Note that some browsers may have C
 - User ID
 - Name
 - Email (if available)
-- Post messages
-- Created time
-- Like counts
-- Comment counts
+
 
 ## ⚠️ Error Handling
 
@@ -188,4 +162,5 @@ _List project members and their roles here_
 ---
 
 **API Source**: [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+
 
