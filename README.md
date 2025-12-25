@@ -1,4 +1,4 @@
-# Facebook Graph API Explorer
+<img width="798" height="763" alt="image" src="https://github.com/user-attachments/assets/4b7d8b17-4b29-4791-be3b-49d25c27c5e6" /># Facebook Graph API Explorer
 
 A web application that allows users to fetch and display data from the Facebook Graph API. This project demonstrates how to interact with Facebook's Graph API to retrieve user profile information.
 
@@ -153,15 +153,20 @@ The application handles the following error scenarios:
 
 ## 📸 Screenshots
 
-_Add screenshots of your application here_
+<img width="798" height="763" alt="image" src="https://github.com/user-attachments/assets/b7a4d6f4-1b4f-48c2-8f8c-fb862203ac25" />
+
 
 ## 👥 Project Members
 
-_List project members and their roles here_
 
----
+
+Adrian C. Sison - JavaScript Logic / Data Processing
+Richielyn S. Canabe - GitHub & Documentation Manager
+Stephanie Mae T. Arenas - API & Authentication Handler
+Lemery Q. Soriano - UI & CSS Designer
 
 **API Source**: [Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+
 
 
 
