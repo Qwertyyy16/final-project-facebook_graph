@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB Graph Explorer Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="fbapi-app-wrapper">
+        <main class="fbapi-main">
+            <section class="fbapi-controls-section">
+                <div class="fbapi-field-group">
+                    <label for="fbapi-access-token" class="fbapi-label">Access Token</label>
+                    <input type="text" id="fbapi-access-token" class="fbapi-input" placeholder="Paste your access token here">
+                </div>
+                <button id="fbapi-fetch-button" class="fbapi-button">
+                    <span class="fbapi-button-icon bi bi-person-circle"></span>
+                    <span class="fbapi-button-text">Get My Profile</span>
+                    <span class="fbapi-button-spinner"></span>
+                </button>
+                <div id="fbapi-error-container" class="fbapi-error-container" aria-live="polite"></div>
+                <div id="fbapi-loading-message" class="fbapi-loading-message">
+                    <span class="fbapi-loading-icon"></span>
+                    <span class="fbapi-loading-text">Loading data...</span>
+                </div>
+            </section>
+            <section class="fbapi-results-section">
+                <div id="fbapi-results-container" class="fbapi-results-container"></div>
+            </section>
+        </main>
+        <footer class="fbapi-footer">
+            <p class="fbapi-footer-text">API Source: <span class="fbapi-footer-api-name">Facebook Graph API</span></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
